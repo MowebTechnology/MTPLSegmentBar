@@ -1,0 +1,11 @@
+framework module MTPLSegmentBar {
+  umbrella header "MTPLSegmentBar.h"
+
+  export *
+  module * { export * }
+}
+
+module MTPLSegmentBar.Swift {
+    header "MTPLSegmentBar-Swift.h"
+    requires objc
+}
